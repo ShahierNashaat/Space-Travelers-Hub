@@ -25,9 +25,9 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route exact path="/"><Rockets /></Route>
-        <Route path="/Missions"><Missions /></Route>
-        <Route path="/My Profile"><MyProfile /></Route>
+        <Route exact path="/Space-Travelers-Hub"><Rockets /></Route>
+        <Route path="/Space-Travelers-Hub/Missions"><Missions /></Route>
+        <Route path="/Space-Travelers-Hub/My Profile"><MyProfile /></Route>
       </Switch>
     </Router>
   );

@@ -22,14 +22,14 @@ const Navbar = () => {
         <ul>
           <li>
             {' '}
-            <NavLink to="/" activeClassName="active" isActive={checkActive}>Rockets</NavLink>
+            <NavLink to="/Space-Travelers-Hub" activeClassName="active" isActive={checkActive}>Rockets</NavLink>
           </li>
           <li>
             {' '}
-            <NavLink to="/Missions">Missions</NavLink>
+            <NavLink to="/Space-Travelers-Hub/Missions">Missions</NavLink>
           </li>
           |
-          <li><NavLink to="/My Profile">My Profile</NavLink></li>
+          <li><NavLink to="/Space-Travelers-Hub/My Profile">My Profile</NavLink></li>
         </ul>
       </nav>
       <hr />
