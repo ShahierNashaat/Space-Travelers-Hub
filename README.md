@@ -21,7 +21,7 @@
 
 ## Live Demo
 
-[Live Site](https://space-hub-taher.netlify.app/)
+[Live Site](https://shahiernashaat.github.io/Space-Travelers-Hub/)
 
 ## Video Description
 
