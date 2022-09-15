@@ -5,16 +5,16 @@ const Navbar = () => {
   const checkActive = (match, location) => {
     if (!location) return false;
     const { pathname } = location;
-    return pathname === '/';
+    return pathname === '/Space-Travelers-Hub';
   };
   return (
     <header>
       <nav>
         <div>
-          <NavLink to="/">
+          <NavLink to="/Space-Travelers-Hub">
             <img src={LOGO} alt="logo" />
           </NavLink>
-          <NavLink to="/">
+          <NavLink to="/Space-Travelers-Hub">
             <h1>Space Travelers&apos; Hub</h1>
           </NavLink>
         </div>
